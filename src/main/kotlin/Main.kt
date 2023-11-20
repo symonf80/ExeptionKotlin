@@ -5,7 +5,7 @@ fun main() {
     wall.add(post)
     try {
         wall.createComment(1, comment)
-        println("Коментарий добавлен ")
+        println("РљРѕРјРµРЅС‚Р°СЂРёР№ РґРѕР±Р°РІР»РµРЅ ")
     } catch (e: PostNotFoundException) {
         println(e.message)
     }
