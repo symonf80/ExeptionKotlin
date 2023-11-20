@@ -27,6 +27,6 @@ class WallService {
             }
         }
 
-        throw PostNotFoundException("Пост не найден")
+        throw PostNotFoundException("РџРѕСЃС‚ РЅРµ РЅР°Р№РґРµРЅ")
     }
 }
